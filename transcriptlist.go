@@ -2,7 +2,7 @@ package main
 
 import (
 
-	"KuroiKitsu/go-ass"
+	"github.com/5k3105/Trans-View/KuroiKitsu/go-ass"
 	"github.com/n00bDooD/gosrt"
 
 	"github.com/therecipe/qt/core"
