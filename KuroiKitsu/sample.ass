@@ -1,0 +1,31 @@
+﻿[Script Info]
+; Extracted from Oreimo 01.
+Title: Default Aegisub file
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 1280
+PlayResY: 720
+ScaledBorderAndShadow: yes
+Last Style Storage: aaaaaaaaaa
+Video Zoom: 8
+Audio File: ?video
+Video Zoom Percent: 0.375
+Scroll Position: 1
+Active Line: 1
+YCbCr Matrix: TV.601
+Video Position: 30688
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,48,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,3,3,2,20,20,15,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:01.08,0:00:01.08,Default,,0,0,0,,TS
+Dialogue: 0,0:00:26.12,0:00:27.04,Default,,0,0,0,,Onii-chan!
+Dialogue: 0,0:00:28.77,0:00:30.92,Default,,0,0,0,,Come on, how long are you staying in bed?
+Dialogue: 0,0:00:30.92,0:00:32.42,Default,,0,0,0,,It's morning.
+Dialogue: 0,0:00:32.42,0:00:35.64,Default,,0,0,0,,Your breakfast will get cold if you don't get up.
+Dialogue: 0,0:00:35.64,0:00:37.18,Default,,0,0,0,,I even made it just for you, too.
+; ...
+Dialogue: 0,0:07:14.32,0:07:16.72,Default,,0,0,0,,Why is her hair {\i1}pink{\i0}?
