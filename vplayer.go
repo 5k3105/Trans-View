@@ -176,15 +176,11 @@ func (v *VPlayer) positionChanged(position int64) {
 			brush = gui.NewQBrush4(core.Qt__white, core.Qt__SolidPattern)
 			lw.Item(row - 1).SetBackground(brush)
 
-			// this doesnt work:
+			// this doesnt work: (ie ensure visible)
 			transcript.ListWidget.ScrollToItem(transcript.ListWidget.Item(transcript.ListWidget.CurrentRow()), widgets.QAbstractItemView__PositionAtCenter) //tl.ListWidget.ScrollHint)
 			//v.TL.ListWidget.ScrollToItem(v.TL.ListWidget.Item(v.TL.ListState.Row), widgets.QAbstractItemView__EnsureVisible)
-			
-			//            # Update LineDefs panel
-			//            LineDefs.lookup(subsList.currentRow)
 
 			lkpline.SetText(row0.Text)
-
 
 		}
 	}
